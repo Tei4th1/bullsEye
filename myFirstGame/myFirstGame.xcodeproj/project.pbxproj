@@ -13,6 +13,8 @@
 		84435308297AC7F400803A9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84435306297AC7F400803A9C /* Main.storyboard */; };
 		8443530A297AC7F500803A9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84435309297AC7F500803A9C /* Assets.xcassets */; };
 		8443530D297AC7F500803A9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8443530B297AC7F500803A9C /* LaunchScreen.storyboard */; };
+		844353152981908300803A9C /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844353142981908300803A9C /* AboutViewController.swift */; };
+		8443531729819CF000803A9C /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8443531629819CF000803A9C /* AboutMeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		84435309297AC7F500803A9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8443530C297AC7F500803A9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8443530E297AC7F500803A9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844353142981908300803A9C /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		8443531629819CF000803A9C /* AboutMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,8 @@
 		844352F4297AC7F400803A9C = {
 			isa = PBXGroup;
 			children = (
+				8443531629819CF000803A9C /* AboutMeViewController.swift */,
+				844353142981908300803A9C /* AboutViewController.swift */,
 				844352FF297AC7F400803A9C /* myFirstGame */,
 				844352FE297AC7F400803A9C /* Products */,
 			);
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				84435305297AC7F400803A9C /* ViewController.swift in Sources */,
+				8443531729819CF000803A9C /* AboutMeViewController.swift in Sources */,
 				84435301297AC7F400803A9C /* AppDelegate.swift in Sources */,
+				844353152981908300803A9C /* AboutViewController.swift in Sources */,
 				84435303297AC7F400803A9C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
